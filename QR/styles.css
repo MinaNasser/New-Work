@@ -1,0 +1,81 @@
+/* تنسيق الجسم */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #ec6464;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* حاوية التطبيق */
+.container {
+    background-color: rgb(232, 178, 178);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* تنسيق النص */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* تنسيق حقل الإدخال */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* تنسيق الزر */
+button {
+    padding: 10px 20px;
+    background-color: #ee00ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ec6464;
+}
+
+/* تنسيق حاوية رمز QR */
+#qrCodeContainer {
+    margin-top: 20px;
+}
+
+#qrCodeContainer img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+/* تنسيق رابط الـ QR */
+#qrLinkContainer {
+    margin-top: 20px;
+}
+
+#qrLink {
+    color: #ee00ff;
+    text-decoration: none;
+}
+
+#qrLink:hover {
+    text-decoration: underline;
+}

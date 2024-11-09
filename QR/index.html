@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>مولد رمز الاستجابة السريعة (QR Code)</h1>
+        <input type="text" id="qrData" placeholder="أدخل النص أو الرابط">
+        <button id="generateQRBtn">توليد رمز QR</button>
+        <div id="qrCodeContainer">
+            <!-- رمز QR سيتم تحميله هنا -->
+        </div>
+        <div id="qrLinkContainer" style="display: none;">
+            <p>رابط رمز الـ QR: <a href="" id="qrLink" target="_blank"></a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
