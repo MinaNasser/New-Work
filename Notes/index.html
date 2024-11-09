@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes App </h1>
+        <div class="buttons-container">
+            <button id="addNoteBtn">+</button>
+            <button id="clearNotesBtn">Clear All</button>
+        </div>
+        
+
+        <div id="notesList">
+            <!-- سيتم إضافة الملاحظات هنا -->
+        </div>
+    </div>
+    
+    <!-- نموذج إضافة أو تحرير الملاحظة -->
+    <div id="noteModal" class="modal">
+        <div class="modal-content">
+            <h2>Add Note</h2>
+            <input type="text" id="noteTitle" placeholder=" Note Title">
+            <textarea id="noteContent" placeholder="Note Description"></textarea>
+            <button id="saveNoteBtn">Save</button>
+            <button id="cancelBtn">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
